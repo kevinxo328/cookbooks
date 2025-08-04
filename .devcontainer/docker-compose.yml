@@ -6,7 +6,7 @@ services:
     ports:
       - 8888:8888
     volumes:
-      - ..:/workspace:cached
+      - ..:/workspace
     environment:
       - PYTHONPATH=/workspace
       - JUPYTER_TOKEN=
