@@ -18,3 +18,15 @@ Please install the [Dev Containers](https://marketplace.visualstudio.com/items?i
 
 - The devcontainer setup provides an isolated environment for safe and reproducible POC and testing.
 - For more details, refer to the `.devcontainer` directory.
+- [cookiecutter](https://cookiecutter.readthedocs.io/en/stable/) is pre-installed in the devcontainer. You can use the following command to generate a new project from any template under the `boilerplates` directory:
+
+  ```bash
+  cookiecutter boilerplates/<template_folder>
+  ```
+
+  For example:
+  ```bash
+  cookiecutter boilerplates/openai
+  ```
+
+  This will interactively generate a new project based on the selected template.

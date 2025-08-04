@@ -5,7 +5,7 @@ RUN apt-get update && \
     pip install --upgrade pip
 
 # Install Basic Packages
-RUN pip install ipykernel jupyter python-dotenv
+RUN pip install ipykernel jupyter python-dotenv cookiecutter
 
 EXPOSE 8888
 

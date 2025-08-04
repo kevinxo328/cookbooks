@@ -3,3 +3,15 @@
 
 .env
 env*
+!templates/**/.env
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+*.log
+*.egg
+*.egg-info/
