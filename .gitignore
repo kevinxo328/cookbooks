@@ -3,7 +3,7 @@
 
 .env
 env*
-!templates/**/.env
+!boilerplates/**/*.env
 
 __pycache__/
 *.pyc
